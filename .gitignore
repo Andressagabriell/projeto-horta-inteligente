@@ -1,0 +1,9 @@
+# Dependências do Node.js
+backend/node_modules/
+
+# Arquivo do banco de dados local de teste
+backend/horta.db
+
+# Logs e arquivos de sistema
+npm-debug.log*
+.DS_Store

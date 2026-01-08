@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor da Horta Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header><h1>Painel de Monitoramento da Horta</h1></header>
+    <main>
+        <div class="card">
+            <h2>Umidade Atual</h2>
+            <p id="umidade-atual" class="dado-grande">--</p>
+            <p id="status-umidade">Carregando...</p>
+        </div>
+        <div class="card-grafico">
+            <h2>Histórico de Umidade</h2>
+            <canvas id="grafico-umidade"></canvas>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
